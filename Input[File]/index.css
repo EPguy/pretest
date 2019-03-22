@@ -1,0 +1,29 @@
+.box {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 10vh;
+    font-size: 2rem;
+    color: #fa5252;
+    background-color: #ff8787;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.box input[type="file"] {
+    display: none;
+}
+#upload_name {
+    width: 40vw;
+    height: 10vh;
+    margin-left: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
